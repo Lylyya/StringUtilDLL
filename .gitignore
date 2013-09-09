@@ -1,6 +1,6 @@
 #忽略windows生成的缩略图文件
 Thunbs.db
-#忽略Visual Studio生成时的产生的文件
+#忽略Visual Studio生成时的产生的文�
 *.obj
 *.exe
 *.pdb
@@ -11,17 +11,16 @@ Thunbs.db
 *_i.c
 *_p.c
 *.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-[Bb]in
-[Dd]ebug*/
-*.lib
-*.sbr
-obj/
-[Rr]elease*/
-_ReSharper*/
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
